@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+    --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-dark-blue-main-bg);
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.card {
+    background-color: var(--very-dark-blue-card-bg);
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-equilibrium {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+
+h1 {
+    color: var(--white);
+    font-family: "Outfit";
+    width: 350px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 25px;
+    justify-content: left;
+    
+}
+
+p {
+    color: var(--soft-blue);
+    font-family: "Outfit";
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    flex-grow: 1;
+    place-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 30px;
+    position: relative;
+}
+
+.icons-eth {
+    width: 150px;
+    display: flex;
+    position: absolute;
+    left: 0px;
+}
+
+.icons-days {
+    width: 150px;
+    display: flex;
+    position: absolute;
+    left: 200px;
+}
+
+h3 {
+    color: var(--soft-blue);
+    font-family: "Outfit";
+    width: 300px;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+h3:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.bottom {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+    border-top: 1px solid var(--very-dark-blue-line);
+    position: relative;
+}
+
+.bottom img {
+    border: 1.5px solid var(--white);
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+span{
+    color: var(--white);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
