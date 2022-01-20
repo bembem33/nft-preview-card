@@ -104,6 +104,8 @@ h3 {
 h3:hover{
     color: var(--cyan);
     cursor: pointer;
+    transition: 0.5s;
+    font-size: 17px;
 }
 
 .bottom {
